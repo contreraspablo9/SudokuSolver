@@ -170,11 +170,11 @@ def tecla(event): #Ingresar datos
         num = num - 48  #convertir a entero
         cuadricula.itemconfigure(letra[posy][posx], text = num)
         sudoku[posy][posx] = num
-    if num == 8: #backspace
+    elif num == 8: #backspace
         cuadricula.itemconfigure(letra[posy][posx], text = " ")
         sudoku[posy][posx] = 0
-    cuadricula.update()
-    if num == 13:
+        cuadricula.update()
+    elif num == 13:
         sudoku_solve()
 
         
@@ -191,4 +191,3 @@ app.bind("<Key>", tecla)
 app.bind("<Button-1>", click)
 
 app.mainloop() #aplicacion principal
-
