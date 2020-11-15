@@ -166,7 +166,6 @@ def click(event): #Registra los clics en la ventana
 def tecla(event): #Ingresar datos
     global sudoku
     num = ord(event.char) #convertir a ascii
-    print(num)
     if num > 48 and num < 58: #Filtrar teclas no numericas
         num = num - 48  #convertir a entero
         cuadricula.itemconfigure(letra[posy][posx], text = num)
