@@ -9,4 +9,4 @@ Una vez que hayas terminado de agregar los números correctamente teclea enter y
 
 Cuidado! si el sudoku es demasiado dificil podría trabarse la aplicación
 
-Atención! Tal vez sea buena idea que el codigo ascii de tus teclas corresponda al que yo configuré en mi teclado, puede cambiar la tecla backspace entre una computadora y otra
+Atención! Tal vez sea buena idea verificar que el codigo ascii de tus teclas corresponda al que yo configuré en mi teclado, puede cambiar el numero de la tecla backspace entre una computadora y otra
