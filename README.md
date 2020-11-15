@@ -8,3 +8,5 @@ que hayas escrito por accidente. luego haz clic de nuevo sobre otro espacio del 
 Una vez que hayas terminado de agregar los números correctamente teclea enter y el sudoku se resolverá automáticamente. 
 
 Cuidado! si el sudoku es demasiado dificil podría trabarse la aplicación
+
+Atención! Tal vez sea buena idea que el codigo ascii de tus teclas corresponda al que yo configuré en mi teclado, puede cambiar la tecla backspace entre una computadora y otra
